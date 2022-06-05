@@ -85,7 +85,7 @@
                   </button>
                 </div>
                 <div class="col">
-                    <button type="button" v-bind:class="[bClass]">
+                    <button type="button" v-bind:class="bClass">
                     button-dark
                   </button>
                 </div>
@@ -219,12 +219,16 @@
         height: 200px;
         position: absolute;
         margin-top: 20px;
+        margin-left: 20px;
         background-color: red;
     }
     
     .ofcent {
         width: 100px;
         height: 100px;
+        top: 100px;
+        left: 100px;
+        transform: translate(-50%,-50%);
         background-color: purple;
         position: relative;
     }
